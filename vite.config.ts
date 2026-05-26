@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Task8-ATC/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
